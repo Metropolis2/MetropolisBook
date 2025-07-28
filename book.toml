@@ -1,0 +1,16 @@
+[book]
+authors = ["Lucas Javaudin"]
+language = "en"
+multilingual = false
+src = "src"
+title = "METROPOLIS2 The Book"
+description = "General documentation for the transport simulator METROPOLIS2"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[output.html]
+default-theme = "ayu"
+curly-quotes = true
+mathjax-support = true
