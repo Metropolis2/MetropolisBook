@@ -1,8 +1,6 @@
 # Introduction
 
 
-**<p style="color: red;">Please do not distribute. &copy;</p>**
-
 **<p style="color:red;">THIS DOCUMENTATION IS A WORK-IN-PROGRESS, MANY CHAPTERS ARE STILL EMPTY</p>**
 
 ## METROPOLIS2
