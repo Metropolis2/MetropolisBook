@@ -1,7 +1,11 @@
 # Introduction
 
 
-**<p style="color:red;">THIS DOCUMENTATION IS A WORK-IN-PROGRESS, MANY CHAPTERS ARE STILL EMPTY</p>**
+<div class="warning">
+<b>WARNING!</b>
+
+THIS DOCUMENTATION IS A WORK-IN-PROGRESS, MANY CHAPTERS ARE STILL EMPTY
+</div>
 
 ## METROPOLIS2
 
@@ -18,9 +22,36 @@ Its main features are:
 
 METROPOLIS2 is composed of
 
-- `metrolib`: a command line tool to run the transport simulations, written in Rust 🚀
-- `metropy`: a command line tool to interact with METROPOLIS2's input and output data, written in
+- `Metropolis-Core`: a command line tool to run the transport simulations, written in Rust 🚀
+- `MetroPy`: a command line tool to interact with METROPOLIS2's input and output data, written in
   Python 🐍
+
+<img src="metro_architecture.svg" id="architecture-image" alt="METROPOLIS2 Architecture"/>
+
+<script>
+function updateArchitectureImage() {
+  const root = document.documentElement;
+  const colorScheme = getComputedStyle(root).getPropertyValue('--color-scheme').trim();
+  const img = document.getElementById('architecture-image');
+  if (colorScheme === 'dark') {
+    img.src = 'metro_architecture-dark.svg';
+  } else {
+    img.src = 'metro_architecture.svg';
+  }
+}
+window.addEventListener('DOMContentLoaded', updateArchitectureImage);
+// Watch for changes to html classList.
+const observer = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+      updateArchitectureImage();
+    }
+  });
+});
+// Start observing the root element for class changes
+const rootElement = document.documentElement;
+observer.observe(rootElement, { attributes: true });
+</script>
 
 ## What is this book?
 
@@ -28,8 +59,8 @@ This is the official documentation of METROPOLIS2, intended for anyone wanting t
 use the simulator and how it works.
 
 It is devided in 6 chapters:
-- [Chapter 1: Metropy user guide](metropy/index.html)
-- [Chapter 2: Metrolib reference](getting_started/index.html)
+- [Chapter 1: MetroPy user guide](metropy/index.html)
+- [Chapter 2: Metropolis-Core reference](getting_started/index.html)
 - [Chapter 3: Advanced topics](advanced/index.html)
 - Chapter 4: Theoretical foundations
 - [Chapter 5: Implementation details](implementation/index.html)
