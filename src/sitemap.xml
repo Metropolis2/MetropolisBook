@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://docs.metropolis2.org/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/metropy/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/advanced/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/tools/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/metropy/configuration.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/metropy/steps.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/metropy/files.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/metropy/chambery.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/input/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/input/parameters.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/input/agents.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/input/road-network.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/output/population_results.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/advanced/parallel_edges.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/advanced/logit_u_vs_epsilon.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/supply_side/ttf.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/supply_side/congestion.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/tools/routing_script.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/glossary.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/output/network_conditions.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/advanced/tolls.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/supply_side/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/demand_side/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/running/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/output/index.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/getting_started/output/iteration_results.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.metropolis2.org/implementation/supply_side/simulating_trips.html</loc>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
